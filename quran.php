@@ -40,6 +40,6 @@ $graph->setTitle("Words as how many times they appeared in my facebook's message
 $graph->setGradient('red', 'maroon');
 $graph->createGraph();*/
 
-foreach($count as $key => $value){
+foreach($data as $key => $value){
 	print "the word $key appeared $value times</br>";
 }
